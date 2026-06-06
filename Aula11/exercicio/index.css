@@ -1,0 +1,20 @@
+.alvo {
+    height: 500px;
+    width: 500px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circulo-externo {
+    padding: 50px;
+    height: 500px;
+    width: 500px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circulo-interno {
+    padding: 50px;
+}
