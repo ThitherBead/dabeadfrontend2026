@@ -1,5 +1,3 @@
-
-
 const btnTema = document.getElementById("btn-tema");
 
 btnTema.addEventListener("click", () => {
