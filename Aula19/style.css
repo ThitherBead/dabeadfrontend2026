@@ -1,0 +1,106 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo geral */
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Container central */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* Quem somos */
+.quem-somos {
+    background: white;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+}
+
+/* Produto card */
+.produto-card {
+    margin-top: 30px;
+    background: white;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.produto-card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Título */
+.produto-card h2 {
+    margin-bottom: 10px;
+}
+
+/* Descrição */
+.descricao {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Preço */
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #1a8917;
+}
+
+/* Botão arredondado */
+.btn-carrinho {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-carrinho:hover {
+    background: #0056b3;
+    transform: scale(1.03);
+}
+
+/* Botão carrinho flutuante */
+.carrinho-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border: 2px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* contador */
+#contador-carrinho {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 12px;
+}
